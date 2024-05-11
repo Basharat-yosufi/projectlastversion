@@ -1,0 +1,416 @@
+* {
+  box-sizing: border-box;
+  
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: Roboto;
+  src: url(./font/Roboto-Thin.ttf);
+}
+@font-face{
+  font-family: Montserrat;
+  src: url(./font/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf);
+
+}
+@font-face{
+  font-family: im_fell_Double_pica_sc;
+  src: url(./font/IM_Fell_Double_Pica_SC/IMFellDoublePicaSC-Regular.ttf);
+}
+.top_contact {
+ 
+  width: 100vw;
+  height: 450px;
+  flex-shrink: 0;
+  background-color: #14274a;
+}
+ul li a {
+  color: #fff;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #fff;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  gap: 100px;
+  display:inline-block;
+}
+ul li a:hover {
+  text-decoration: underline #FFF;
+}
+ul li {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.Rectangle {
+  width: 200px;
+  height: 100px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: -25px;
+}
+.prectangle {
+  position: relative;
+  top: -90px;
+  left: 50px;
+  color: #14274a;
+  font-family: "Adobe Garamond Pro";
+  font-size: 20px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 6px;
+}
+.contact_h1 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 400px;
+  text-align: center;
+  transition: width 2s;
+   margin-bottom: 150px;
+  text-shadow: 0px 0px 20px white;
+
+}
+
+
+.Contact_text {
+  color: #14274a;
+  font-family: "Adobe Garamond Pro";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  position: relative;
+  margin-top: -400px;
+  margin-left: 200px;
+  animation-duration: 4s;
+ text-shadow: 0px 0px 25px  #14274a;
+}
+.Contact_text::first-letter{
+  color: #E0B973;
+  font-size: 90px;
+  rotate: 350px;
+  
+}
+
+
+
+
+.contact_paragraf {
+  color: #14274a;
+  -webkit-text-stroke-width: 0.30000001192092896;
+  -webkit-text-stroke-color: #000;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 150;
+  line-height: normal;
+  margin-left: 200px;
+  height: 60px;
+  width: 50vw;
+  margin-top: 40px;
+}
+.contact_paragraf::first-line{
+  color: #f3af30;
+  font-size: 35px;
+  text-shadow: 0px 0px 15px #E0B973;
+ 
+}
+.main_contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 10vw;
+  width: 30vw;
+  height: 300px; 
+  margin-left: 190px;
+  margin-top: 200px;
+}
+.part1_h3 {
+  color: #14274a;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #14274a;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.part1_p {
+  color: #14274a;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 30px;
+}
+.part1_last {
+  color: #14274a;
+  -webkit-text-stroke-width: 0.5;
+  -webkit-text-stroke-color: #14274a;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.form {
+  width: 50vw;
+  height: 500px;
+  flex-shrink: 0;
+  background-color: #14274a;
+  border-radius: 50px;
+  padding: 30px;
+  color: #FFF;
+  font-size: 25px;
+  box-shadow: 20px 20px 20px #E0B973;
+  margin-left: 140px;
+  
+}
+.form input {
+  width: 40vw;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 25px;
+}
+
+.last_bu{
+  background-color: #E0B973;
+  font-size: 20px;
+  color:#fff;
+ text-align: center;
+ width: 10vw;
+ height: 50px;
+ border-radius: 30px;
+}
+
+/* footer */
+
+footer{
+  background: linear-gradient(to right, #121e36, #2d0b00);
+  border-top-left-radius: 100px;
+  margin-top: 100px;
+  width: 100%;
+  height: fit-content;
+ 
+}
+
+footer *{
+  color: white;
+}
+
+.containeer{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 7%;
+}
+
+.footer-col{
+  width: 25%;
+}
+
+.footer-col h2{
+  font-optical-sizing: 1.7em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p.email{
+  margin: 30px 0;
+}
+
+p.phone{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.footer-col .text-office{
+  margin-bottom: 20px;
+}
+.underline{
+  width: 70px;
+  height: 3px;
+  position: relative;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.underline span{
+  width: 7px;
+  height: 100%;
+  position: absolute;
+  left: 10px;
+  background-color: rgb(63,63,63);
+  border-radius: 3px;
+  animation: moving 1.5s linear infinite;
+}
+
+@keyframes moving {
+  0%{
+      left: -20px;
+  }
+  100%{
+      left: 100%;
+  }
+}
+
+.secondul{
+  list-style-type: none;
+ 
+}
+
+
+.secondul{
+  display: grid;
+  
+}
+.footer-col form{
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  width: 14vw;
+  padding-bottom: 10px;
+  display: flex;
+}
+
+.footer-col form input{
+  width: 70%;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.footer-col form i{
+  font-size: 15px;
+}
+
+.footer-col .social-icons{
+  margin-top: 20px;
+}
+
+.footer-col .social-icons i{
+  padding: 10px;
+  background-color: white;
+  color: #00093c;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+
+.footer-para{
+  max-width: 250px;
+}
+
+/* cp */
+/* media queries */
+@media screen  and (max-width:700px) {
+  ul a{ 
+      flex-wrap: wrap;
+      display: inline-block;
+  }
+
+  
+.heade_main{
+  margin-left: 10px;
+ 
+  
+}
+.contact_h1{
+  display: none;
+}
+
+
+
+.part1{
+  height: fit-content;
+
+}
+.h1{
+  font-size: 10vw;
+}
+.newmain{
+  display: grid;
+  gap: 40px;
+}
+.section2_BU{
+  width: 30vw;
+  margin-left: 5px;
+}
+.sction3_main{
+  margin-top: 20px;
+}
+.footer_main{
+  display: grid;
+  height: fit-content;
+}
+
+
+.containeer{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+}
+}
+
+@media (max-width:700px) {
+  .containeer{
+      margin: auto;
+      grid-template-columns: 1fr;
+  }
+  .footer-col{
+      margin: auto;
+  }
+}
+
+@media (max-width:768px){
+  .main2 , .main_contact{
+    display: none;
+  }
+  .form{
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 70vw;
+  }
+  .form input {
+    width: 50vw;
+
+  }
+  .last_bu{
+    width: 50vw;
+  }
+}
+
+
+
+/*  */
+
+
+
+
+
+
+
+ 
